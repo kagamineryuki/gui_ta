@@ -84,7 +84,11 @@ public class converter_suhu extends JFrame {
             CRIMSON_COLOR = new Color(220,20,60),
             NIGHT_COLOR = new Color(46,68,130);
 
+    Weight weight;
+
     public converter_suhu(){
+         weight = new Weight();
+
         MainUI();
 
         setTitle("Convertion Software");
@@ -328,6 +332,7 @@ public class converter_suhu extends JFrame {
         gbConst.fill = GridBagConstraints.HORIZONTAL;
 
         weight_res = new JTextField();
+        weight_res.setEditable(false);
         weight_val = new JTextField();
         status_weight = new JLabel("Weight Mode");
         status_weight.setFont(new Font(status_temp.getFont().getName(),Font.BOLD,20));
@@ -371,6 +376,8 @@ public class converter_suhu extends JFrame {
         gbConst.gridx = 0;
         gbConst.gridy = 7;
         weight_card.add(proc_weight,gbConst);
+
+        proc_weight.addActionListener(new action_weight_convert());
     }
 
 //  Action listeners
@@ -421,6 +428,157 @@ public class converter_suhu extends JFrame {
         }
     }
 
+    class action_weight_convert implements ActionListener{
+        public void actionPerformed(ActionEvent e){
+            String from_text = weight_from.getSelectedItem().toString();
+            String to_text = weight_to.getSelectedItem().toString();
+            Double from_number = Double.parseDouble(weight_val.getText());
+            Double to_number = 0.0;
+            String mode = from_text.concat(" "+to_text);
+
+            switch(mode){
+                case "Tonne Tonne":
+                    weight_res.setText(from_number.toString());
+                    break;
+                case "Tonne Kg":
+                    to_number = weight.tonne_to_kg(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "Tonne g":
+                    to_number = weight.tonne_to_g(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "Tonne Mg":
+                    to_number = weight.tonne_to_mg(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "Tonne Pound":
+                    to_number = weight.tonne_to_pound(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "Tonne Ounce":
+                    to_number = weight.tonne_to_ounce(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "Kg Kg":
+                    weight_res.setText(from_number.toString());
+                    break;
+                case "Kg Tonne":
+                    to_number = weight.kg_to_tonne(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "Kg g":
+                    to_number = weight.kg_to_g(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "Kg Mg":
+                    to_number = weight.kg_to_mg(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "Kg Pound":
+                    to_number = weight.kg_to_pound(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "Kg Ounce":
+                    to_number = weight.kg_to_ounce(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "g g":
+                    weight_res.setText(from_number.toString());
+                    break;
+                case "g Tonne":
+                    to_number = weight.g_to_tonne(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "g Kg":
+                    to_number = weight.g_to_kg(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "g Mg":
+                    to_number = weight.g_to_mg(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "g Pound":
+                    to_number = weight.g_to_pound(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "g Ounce":
+                    to_number = weight.g_to_ounce(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "Mg Mg":
+                    weight_res.setText(from_number.toString());
+                    break;
+                case "Mg Tonne":
+                    to_number = weight.mg_to_tonne(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "Mg Kg":
+                    to_number = weight.mg_to_kg(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "Mg g":
+                    to_number = weight.mg_to_g(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "Mg Pound":
+                    to_number = weight.mg_to_pound(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "Mg Ounce":
+                    to_number = weight.mg_to_ounce(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "Pound Tonne":
+                    to_number = weight.pound_to_tonne(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "Pound Kg":
+                    to_number = weight.pound_to_kg(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "Pound g":
+                    to_number = weight.pound_to_g(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "Pound Mg":
+                    to_number = weight.pound_to_mg(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "Pound Pound":
+                    weight_res.setText(from_number.toString());
+                    break;
+                case "Pound Ounce":
+                    to_number = weight.pound_to_ounce(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "Ounce Tonne":
+                    to_number = weight.ounce_to_tonne(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "Ounce Kg":
+                    to_number = weight.ounce_to_kg(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "Ounce g":
+                    to_number = weight.ounce_to_g(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "Ounce Mg":
+                    to_number = weight.ounce_to_mg(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "Ounce Pound":
+                    to_number = weight.ounce_to_pound(from_number);
+                    weight_res.setText(to_number.toString());
+                    break;
+                case "Ounce Ounce":
+                    weight_res.setText(from_number.toString());
+                    break;
+            }
+
+        }
+    }
 
     public static void main(String args[]){
         SwingUtilities.invokeLater(new Runnable() {

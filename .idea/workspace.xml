@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc18ac7a-044b-4086-8b4c-88659f7a249a" name="Default Changelist" comment="" />
+    <list default="true" id="bc18ac7a-044b-4086-8b4c-88659f7a249a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/converter_suhu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/converter_suhu.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +16,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/converter_suhu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
+            <state relative-caret-position="126">
+              <caret line="577" column="13" lean-forward="true" selection-start-line="577" selection-start-column="13" selection-end-line="577" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2325#2864#0" />
+                <element signature="e#2887#4522#0" />
+                <element signature="e#4528#6280#0" />
+                <element signature="e#6286#8011#0" />
+                <element signature="e#8017#9730#0" />
+                <element signature="e#11489#11710#0" />
+                <element signature="e#11716#11934#0" />
+                <element signature="e#11940#12158#0" />
+                <element signature="e#12164#12382#0" />
+                <element signature="e#12388#12563#0" />
+                <element signature="e#12569#12744#0" />
+                <element signature="e#12928#13143#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Weight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -38,6 +61,9 @@
       <find>pack</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -54,6 +80,7 @@
     <option name="width" value="1360" />
     <option name="height" value="590" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -162,7 +189,7 @@
       <workItem from="1543403671423" duration="3050000" />
       <workItem from="1543421492161" duration="828000" />
       <workItem from="1543454342808" duration="1337000" />
-      <workItem from="1543542234751" duration="245000" />
+      <workItem from="1543542234751" duration="3671000" />
     </task>
     <servers />
   </component>
@@ -172,7 +199,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17152000" />
+    <option name="totallyTimeSpent" value="20578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1042" extended-state="6" />
@@ -188,16 +215,16 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3284091" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32839224" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32867134" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32839224" />
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -233,12 +260,31 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/temperature.java" />
+    <entry file="file://$PROJECT_DIR$/src/Weight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/converter_suhu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
+        <state relative-caret-position="126">
+          <caret line="577" column="13" lean-forward="true" selection-start-line="577" selection-start-column="13" selection-end-line="577" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2325#2864#0" />
+            <element signature="e#2887#4522#0" />
+            <element signature="e#4528#6280#0" />
+            <element signature="e#6286#8011#0" />
+            <element signature="e#8017#9730#0" />
+            <element signature="e#11489#11710#0" />
+            <element signature="e#11716#11934#0" />
+            <element signature="e#11940#12158#0" />
+            <element signature="e#12164#12382#0" />
+            <element signature="e#12388#12563#0" />
+            <element signature="e#12569#12744#0" />
+            <element signature="e#12928#13143#0" />
           </folding>
         </state>
       </provider>
