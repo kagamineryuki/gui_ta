@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc18ac7a-044b-4086-8b4c-88659f7a249a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/converter_suhu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/converter_suhu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/converter_gui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.directory" beforeDir="false" afterPath="$PROJECT_DIR$/.directory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GUI_TA/Weight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GUI_TA/Weight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GUI_TA/converter_suhu$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GUI_TA/converter_suhu$action_colors_crimson_menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GUI_TA/converter_suhu$action_colors_default_menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GUI_TA/converter_suhu$action_colors_night_menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GUI_TA/converter_suhu$action_curr_menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GUI_TA/converter_suhu$action_length_menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GUI_TA/converter_suhu$action_temp_menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GUI_TA/converter_suhu$action_weight_convert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GUI_TA/converter_suhu$action_weight_menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GUI_TA/converter_suhu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GUI_TA/suhu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GUI_TA/suhu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GUI_TA/test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GUI_TA/test$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GUI_TA/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GUI_TA/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/converter_suhu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/suhu.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,34 +34,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/converter_suhu.java">
+        <entry file="file://$PROJECT_DIR$/src/converter_gui.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="577" column="13" lean-forward="true" selection-start-line="577" selection-start-column="13" selection-end-line="577" selection-end-column="13" />
+            <state relative-caret-position="296">
+              <caret line="88" column="17" lean-forward="true" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2325#2864#0" />
-                <element signature="e#2887#4522#0" />
-                <element signature="e#4528#6280#0" />
-                <element signature="e#6286#8011#0" />
-                <element signature="e#8017#9730#0" />
-                <element signature="e#11489#11710#0" />
-                <element signature="e#11716#11934#0" />
-                <element signature="e#11940#12158#0" />
-                <element signature="e#12164#12382#0" />
-                <element signature="e#12388#12563#0" />
-                <element signature="e#12569#12744#0" />
-                <element signature="e#12928#13143#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Weight.java">
+        <entry file="file://$PROJECT_DIR$/src/Length.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            <state relative-caret-position="3744">
+              <caret line="104" column="22" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -70,15 +78,17 @@
         <option value="$PROJECT_DIR$/src/suhu.java" />
         <option value="$PROJECT_DIR$/src/test.java" />
         <option value="$PROJECT_DIR$/src/temperature.java" />
+        <option value="$PROJECT_DIR$/src/Length.java" />
         <option value="$PROJECT_DIR$/src/converter_suhu.java" />
+        <option value="$PROJECT_DIR$/src/converter_gui.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="360" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="366" />
     <option name="y" value="185" />
-    <option name="width" value="1360" />
-    <option name="height" value="590" />
+    <option name="width" value="1350" />
+    <option name="height" value="597" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -87,6 +97,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,14 +114,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Kaze/Desktop/GUI_TA/src/test.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543455629458" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543580319706" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -127,9 +137,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.converter_suhu">
-    <configuration name="converter_suhu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="converter_suhu" />
+  <component name="RunManager" selected="Application.converter_gui">
+    <configuration name="converter_gui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="converter_gui" />
       <module name="GUI_TA" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,13 +170,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.converter_suhu" />
+      <item itemvalue="Application.converter_gui" />
       <item itemvalue="Application.test" />
       <item itemvalue="Cucumber java.All Features in: GUI_TA" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.converter_suhu" />
+        <item itemvalue="Application.converter_gui" />
         <item itemvalue="Cucumber java.All Features in: GUI_TA" />
         <item itemvalue="Application.test" />
       </list>
@@ -189,7 +199,9 @@
       <workItem from="1543403671423" duration="3050000" />
       <workItem from="1543421492161" duration="828000" />
       <workItem from="1543454342808" duration="1337000" />
-      <workItem from="1543542234751" duration="3671000" />
+      <workItem from="1543542234751" duration="5256000" />
+      <workItem from="1543577130017" duration="3195000" />
+      <workItem from="1543731017398" duration="15000" />
     </task>
     <servers />
   </component>
@@ -199,23 +211,21 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20578000" />
+    <option name="totallyTimeSpent" value="25373000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1042" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1918" height="864" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14354838" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1474704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32839224" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32587412" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -225,7 +235,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32839224" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -235,19 +245,13 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/suhu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/awt/Container.java" />
     <entry file="file://$PROJECT_DIR$/src/test.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -260,32 +264,49 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/temperature.java" />
+    <entry file="file:///var/lib/snapd/desktop/applications/opera_opera.desktop" />
     <entry file="file://$PROJECT_DIR$/src/Weight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Metric.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/converter_suhu.java">
+    <entry file="file://$PROJECT_DIR$/src/suhu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="577" column="13" lean-forward="true" selection-start-line="577" selection-start-column="13" selection-end-line="577" selection-end-column="13" />
+        <state relative-caret-position="145">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Currency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/converter_gui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="88" column="17" lean-forward="true" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2325#2864#0" />
-            <element signature="e#2887#4522#0" />
-            <element signature="e#4528#6280#0" />
-            <element signature="e#6286#8011#0" />
-            <element signature="e#8017#9730#0" />
-            <element signature="e#11489#11710#0" />
-            <element signature="e#11716#11934#0" />
-            <element signature="e#11940#12158#0" />
-            <element signature="e#12164#12382#0" />
-            <element signature="e#12388#12563#0" />
-            <element signature="e#12569#12744#0" />
-            <element signature="e#12928#13143#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Length.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3744">
+          <caret line="104" column="22" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
         </state>
       </provider>
     </entry>
